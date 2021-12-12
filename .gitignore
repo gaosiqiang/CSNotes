@@ -54,3 +54,5 @@ dkms.conf
 # MacOs
 .DS_Store
 
+# Ides
+.obsidian/
