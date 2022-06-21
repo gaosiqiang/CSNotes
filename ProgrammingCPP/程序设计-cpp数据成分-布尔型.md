@@ -13,7 +13,7 @@
 
 声明定义：
 
-```c++
+```cpp
 bool is_true = true; //true
 bool is_false = false; //false
 bool is_bool = 1; //true

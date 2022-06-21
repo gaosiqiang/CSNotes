@@ -8,11 +8,12 @@
 
 ## 3、单精度
 定义规范：
-```c++
+```cpp
 type variable_name = value;
 ```
+
 demo:
-```c++
+```cpp
 float f1;
 f1 = 3.14;
 float f2 = 3.14;
@@ -26,11 +27,12 @@ todo
 
 ## 4、双精度
 定义规范：
-```c++
+```cpp
 type variable_name = value;
 ```
+
 demo:
-```c++
+```cpp
 double d = 3.14159;
 ```
 

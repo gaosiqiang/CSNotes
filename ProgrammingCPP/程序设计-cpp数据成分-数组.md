@@ -3,13 +3,13 @@
 ## 1、数组
 声明定义：
 
-```c++
+```cpp
 tyep arrayName[arraySize] = {element, element, element, .....};
 ```
 
 demo：
 
-```c++
+```cpp
 //声明定义，指定索引范围的数组
 int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 //声明定义，动态索引范围的数组
@@ -32,7 +32,7 @@ c++的数组在内存中占用一个连续内存空间。这个数组对应一�
 
 声明定义：
 
-```c++
+```cpp
 typeName arrayName[arraySize][arraySize] = {
 	{element, elementelement, .....},
 	{element, elementelement, .....}
@@ -41,7 +41,7 @@ typeName arrayName[arraySize][arraySize] = {
 
 example：
 
-```c++
+```cpp
 //定义二维数组
 int c[2][3] = {
 	{1, 2, 3},

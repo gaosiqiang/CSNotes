@@ -7,7 +7,7 @@
 #### 1.1.1、格式规范
 c&cpp中所有的变量都是要先定义再使用，程序中无法使用未定义的变量。
 
-```c++
+```cpp
 数据类型 变量名;
 type varName; 定义变量可以不赋值。
 type varName = value; 定义变量同时赋初始值的是初始化。
@@ -17,7 +17,7 @@ type varName1, varName2, varName3 = value; 混合定义变量使用。
 
 #### 1.1.2、demo
 
-```c++
+```cpp
 int a;
 int b = 10;
 int c, d, e;
@@ -50,12 +50,12 @@ double number = 3.14;
 
 ### 2.2、符号常量
 #### 2.2.1、const关键字定义规范
-```c++
+```cpp
 const 数据类型 常量名 = 初始化值;
 ```
 
 #### 2.2.2、demo
-```c++
+```cpp
 const int I = 1;//定义了常量I。
 ```
 
