@@ -184,7 +184,7 @@ baseTypeName *pointerVariableName;//定义指针变量
 pointerVariableName = &variableName;//指针变量的赋值
 ```
 
-赋值完成后，称为指针变量pointerVariableName指向了变量variableName。
+赋值完成后，称为指针变量pointerVariableName指向了变量variableName，也称为pointerVariableName指向variableName；
 
 因为pointerVariableName是指针类型变量，所以直接使用`pointerVariableName = variableName;`变量赋的值不是指针类型数据那么赋值运算是非法代码，指针变量只能接受指针类型数据同时符合基类型的指针才能赋值；
 
@@ -275,6 +275,31 @@ cout << p << endl;//0x7fff92b4cb28
 
 ### 6.1、指针与数组元素
 
+```cpp
+int a[5] = {1, 2, 3, 4, 5};
+cout << a[3] << endl; //4
+int *p = NULL;
+p = &a[3];
+cout << *p << endl;//4
+*p = 10;
+cout << a[3] << endl;//10
+```
+
+结论：指针变量指向数组元素与指向变量没有区别；
+
+### 6.2、指针与数组名
+
+```cpp
+int a[5] = {1, 2, 3, 4, 5};
+cout << a << endl; // 0x7fff7c2a1b10
+cout << *a << endl; // 1
+cout << &a[0] << endl; // 0x7fff7c2a1b10
+cout << a[0] << endl; // 1
+```
+
+代码说明：
+
+结论：
 
 
 ## 引用参考
