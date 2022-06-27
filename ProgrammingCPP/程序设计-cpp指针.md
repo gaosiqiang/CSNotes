@@ -184,7 +184,7 @@ baseTypeName *pointerVariableName;//定义指针变量
 pointerVariableName = &variableName;//指针变量的赋值
 ```
 
-赋值完成后，称为指针变量pointerVariableName指向了变量variableName，也称为pointerVariableName指向variableName；
+赋值完成后，称为指针变量pointerVariableName指向了变量variableName，也称为pointerVariableName指针指向variableName；
 
 因为pointerVariableName是指针类型变量，所以直接使用`pointerVariableName = variableName;`变量赋的值不是指针类型数据那么赋值运算是非法代码，指针变量只能接受指针类型数据同时符合基类型的指针才能赋值；
 
