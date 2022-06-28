@@ -30,7 +30,7 @@ int a = 0;
 int *p = NULL;
 p = &a;
 cout << p << endl; //0x7fff92b4cb24
-p++;
+p++; //p++作为一个表达式，执行的顺序是先返回p自身的值作为表达式的值，然后在自身++；
 cout << p << endl;//0x7fff92b4cb28
 ```
 
